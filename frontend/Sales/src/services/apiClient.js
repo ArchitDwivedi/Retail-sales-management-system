@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:5000/api",   // backend base URL
+  baseURL:"https://retail-sales-management-system-rouge.vercel.app/",   // backend base URL
 });
 
 export default apiClient;
